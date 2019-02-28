@@ -1,0 +1,95 @@
+#inicio{
+	display: grid;
+	grid-template-columns: 25% 75%;
+	grid-template-rows: 25% 75%;
+}
+#j1{
+	justify-self:end;
+	align-items:end;
+	margin-bottom: -190px;
+}
+#j2{
+	animation: fadein 5s;
+	align-items: center;
+	justify-self: center;
+	
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+h1{
+font-family: 'Righteous', cursive;
+font-size: 72px;
+}
+#proyectos{
+	    padding: 4rem 2rem;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+}
+h2{
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	
+}
+#redes{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 25% 25% 25% 25%;
+	margin-left: 20%;
+	margin-right: 8%;
+}
+.logoo{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+}
+.logo:hover, a:focus{
+	visibility: hidden;
+}
+.logo{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	z-index: 1;
+}
+.elo{
+	margin-top: 125px;
+	margin-bottom: 40px;
+	border-bottom: 2px solid #000;
+	line-height: 0.1em;
+}
+.elo2{
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+#correo{
+	text-align: center;
+	margin-right: 6.5%;
+		background-color:#777777;
+	
+}
+.footmia{
+	background-color: black;
+	color:white;
+	text-align: center;
+}
+#enlaces{
+	background-color:#777777;
+}
+.tre{
+	color:white;
+}
+.logoT{
+	height: 60px;
+	width: 45px;
+}
+h2 span { 
+    background:#777777; 
+    padding:0 10px; 
+}
+.enlaceA{
+	color: white;
+	font-style: italic;
+}
